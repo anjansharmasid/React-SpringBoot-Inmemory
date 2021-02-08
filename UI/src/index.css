@@ -1,0 +1,74 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #10056e;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+.nav-shop {
+    color: #fff;
+    background-color: #17043a;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+.modal-main {
+    position:fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top:50%;
+    left:50%;
+    /** transform: translate(-50%,-50%); **/
+    transform: translate(-50%,-50%);
+}
+  
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
+}
+
